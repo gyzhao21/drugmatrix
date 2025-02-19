@@ -7,7 +7,7 @@ Toxicogenomics is the study of how genes and proteins respond to toxic substance
 
 The DrugMatrix database is an integrated toxicogenomic repository that contains the short-term rat toxicity study results from approximately 637 pharmaceuticals and environmental chemicals performed. The complete DrugMatrix database (plain text link: https://cebs.niehs.nih.gov/cebs/paper/15670) is available on NIEHS CEBS site .
 
-# Data set included in DrugMatrix
+# DrugMatrix data sets include:
 - ~700 Short-term toxicity studies (0.25 to 5 days) in male SD rats
 - ~637 compounds studied at multiple doses, time points and tissues
 - ~4,000 dose-time-tissue combinations (biological triplicates)
