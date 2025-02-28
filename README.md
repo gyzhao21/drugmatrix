@@ -8,7 +8,7 @@ The DrugMatrix database is an integrated large-scale Rat toxicogenomic repositor
 
 The database has played a crucial role in toxicology research. It was initially developed to consolidate a wide range of toxicological and genomic data, enabling researchers to identify molecular signatures indicative of toxicity, diagnose pathological changes, and predict alterations in clinical pathology. The history and foundation of DrugMatrix have been well-documented, including in the book chapter provided as a reference.
 
-# DrugMatrix Data Sets include:
+## DrugMatrix Data Sets include:
 
 - ~700 Short-term toxicity studies (0.25 to 5 days) in male SD rats
 - ~637 compounds studied at multiple doses, time points and tissues
