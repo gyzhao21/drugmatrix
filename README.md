@@ -51,6 +51,7 @@ In addition to Project Description page, we have 9 other tabs:
   - Within about a minute, you will be able to see the data retrieved from the DrugMatrix database. The significance is measured by looking at the 3 columns in the Summary table displayed on the main panel - gene expression level average Log10 Ratio DIFF, T-value, and P-value (see explanation below).
   - Once you see the top row displayed in the Summary table, you may click on the pathology name, e.g. Cortext, tubule, necrosis. You will see all the experiments associated with the choice in detail shown in the table under the Summary table. In the meantime, a box plot with overlaying scatter plot shows at the bottom of the main panel.
   - To generate a report, you may choose PDF, csv, or Excel file format as shown in the upper corner of the table of your interest.
+
 - **Pathology to Genes**
   - *Question to address:* Which genes show the most significant expression changes in association with a specific histopathology (e.g., Hepatocyte, Nonzonal, Lipid Accumulation, Macrovesicular)?
   - Similarly, significance is assessed using three columns in the Summary table on the main panel: Log10 Ratio DIFF, T-value, and P-value.
@@ -59,6 +60,7 @@ In addition to Project Description page, we have 9 other tabs:
     - If available, pathological images with varying severities (normal, minimal, mild, moderate, and marked) will appear at the top of the main panel.
     - A box plot with an overlaying scatter plot will be displayed at the bottom of the page.
     - You can download the tabular data report in the same way as described above.
+
 - **Genes to Clinical Pathology**
   - *Question to address:* Which clinical pathologies are associated with changes of expressions in a gene (e.g., Abcc3)?
   - Select a gene of interest to identify the clinical assays that show strong expression in a chosen organ or tissue. Assay effects are determined by comparing the average assay value to the normal range. If the average value falls within this range, it is considered normal. Values above the upper bound indicate an increase, while those below the lower bound indicate a decrease.
@@ -70,8 +72,15 @@ In addition to Project Description page, we have 9 other tabs:
 - **Genes to Oragan Weight Change**
   - *Question to address:* Which gene shows the most significant expression change in association with an organ weight increase (e.g., Liver)?
   - Select a gene of interest and the direction of organ or tissue weight change to identify which expression source (e.g., LIVER) is most strongly associated with the change.
+    
 - **Organ Weight Change to Genes**
-  - *Question to address:* dfd
+  - *Question to address:* Which genes show the most significant expression changes in association with a specific increased organ weight change (e.g., Liver) during a certain period of exposure (e.g., 5 days)?
+  - Select the direction of organ or tissue weight change and the gene expression tissue source to identify which gene is most strongly associated with the weight change. Note that organ/tissue weight change is defined as a 10% increase or decrease relative to the mean whole-body weight.
+
 - **Toxicologcal Profile**
+  - *Question to address:* What outcomes are when you choose a treatment in a specific tissue (e.g., Liver)?
+  -  Select an endpoint within the tool to retrieve a list of relevant treatments along with their corresponding exposure conditions.
+  -  Identify chemical exposures linked to specific histopathological and clinical chemistry changes. The tool provides essential contextual details, including the chemical compound, dose, vehicle, and duration of exposure.
+    
 - **Individual Chmical Expression and Enrichment**
 - **Scientific Citations**
