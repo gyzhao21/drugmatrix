@@ -1,13 +1,15 @@
 # DrugMatrix ApicalXOmics
-Discovering genes associated with phenotypical changes (i.e., histopathologies, clinical pathologies, and organ weight changes) from DrugMatrix database.  DrugMatrix database is a large-scale Rat toxicogenomics that contains the short-term rat toxicity studies.
-The complete information about the database is available at CEBS site (https://cebs.niehs.nih.gov/cebs/paper/15670) at NIEHS. 
+DrugMatrix ApicalXOmics is an application for iscovering genes associated with phenotypical changes (i.e., histopathologies, clinical pathologies, and organ weight changes) from DrugMatrix database. 
 
 # Toxicogenomics and DrugMatrix Database
 Toxicogenomics is the study of how genes and proteins respond to toxic substances, providing valuable insights into the molecular mechanisms behind adverse drug reactions and environmental toxicity. It explores how exposure to toxicants influences gene expression and the resulting biological effects (i.e., histopatholgy, clinical pathology, and organ weight change).
 
-The DrugMatrix database is an integrated toxicogenomic repository that contains the short-term rat toxicity study results from approximately 637 pharmaceuticals and environmental chemicals performed. The complete DrugMatrix database (plain text link: https://cebs.niehs.nih.gov/cebs/paper/15670) is available on NIEHS CEBS site .
+The DrugMatrix database is an integrated large-scale Rat toxicogenomic repository that contains the short-term rat toxicity study results from approximately 637 pharmaceuticals and environmental chemicals performed. The complete information about the database is available at CEBS site (https://cebs.niehs.nih.gov/cebs/paper/15670) at NIEHS.
+
+The database has played a crucial role in toxicology research. It was initially developed to consolidate a wide range of toxicological and genomic data, enabling researchers to identify molecular signatures indicative of toxicity, diagnose pathological changes, and predict alterations in clinical pathology. The history and foundation of DrugMatrix have been well-documented, including in the book chapter provided as a reference.
 
 # DrugMatrix Data Sets include:
+
 - ~700 Short-term toxicity studies (0.25 to 5 days) in male SD rats
 - ~637 compounds studied at multiple doses, time points and tissues
 - ~4,000 dose-time-tissue combinations (biological triplicates)
