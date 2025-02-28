@@ -87,3 +87,5 @@ In addition to Project Description page, we have 9 other tabs:
   - Analyze gene expression changes in a selected tissue or organ (e.g., liver) following short-term exposure to a chemical. The tool utilizes a public EnrichR database (e.g., KEGG_2021_Human) to predict pathway associations based on upregulated or downregulated genes identified from a microarray platform (e.g., Codelink RU1).
     
 - **Scientific Citations**
+  - Access a comprehensive list of scientific publications referenced in the development of this application. The citation page provides direct links to original research articles, reviews, and relevant studies.
+  - Explore key studies that support the data sources, methodologies, and analytical approaches used in the application. This resource helps users understand the scientific foundation behind the tool’s design and implementation.
