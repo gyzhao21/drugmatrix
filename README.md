@@ -60,12 +60,18 @@ In addition to Project Description page, we have 9 other tabs:
     - A box plot with an overlaying scatter plot will be displayed at the bottom of the page.
     - You can download the tabular data report in the same way as described above.
 - **Genes to Clinical Pathology**
-  - *Question to addres:* Which clinical pathologies are associated with changes of expressions in a gene (e.g., Abcc3)?
+  - *Question to address:* Which clinical pathologies are associated with changes of expressions in a gene (e.g., Abcc3)?
   - Select a gene of interest to identify the clinical assays that show strong expression in a chosen organ or tissue. Assay effects are determined by comparing the average assay value to the normal range. If the average value falls within this range, it is considered normal. Values above the upper bound indicate an increase, while those below the lower bound indicate a decrease.
 
 - **Clinical Pathology to Genes**
+  - *Question to address:* Which genes show the most significant expression changes in association with a specific decreased hematology (e.g., Hemoglobin)?
+  - Select a clinical assay and an assay effect (increase or decrease) to identify the gene expressions most significantly associated with your selection.
+
 - **Genes to Oragan Weight Change**
+  - *Question to address:* Which gene shows the most significant expression change in association with an organ weight increase (e.g., Liver)?
+  - Select a gene of interest and the direction of organ or tissue weight change to identify which expression source (e.g., LIVER) is most strongly associated with the change.
 - **Organ Weight Change to Genes**
+  - *Question to address:* dfd
 - **Toxicologcal Profile**
 - **Individual Chmical Expression and Enrichment**
 - **Scientific Citations**
