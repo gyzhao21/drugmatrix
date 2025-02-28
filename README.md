@@ -53,9 +53,16 @@ In addition to Project Description page, we have 9 other tabs:
   - To generate a report, you may choose PDF, csv, or Excel file format as shown in the upper corner of the table of your interest.
 - **Pathology to Genes**
   - *Question to address:* Which genes show the most significant expression changes in association with a specific histopathology (e.g., Hepatocyte, Nonzonal, Lipid Accumulation, Macrovesicular)?
-  - Similarly, the significance is measured by looking at the 3 columns in the Summary table displayed on the main panel, i.e. Log10 Ratio DIFF, T-value, and P-value.
-  - Once you see the top row displayed in the Summary table, you may click on the gene probe name, e.g. Havcr1. You will see all the experiments associated with the choice in detail shown in the table under the Summary table. In the meantime, a list of associated pathological images, if there are any, with various severities (normal, minimal, mild, moderate, and marked) show on top of the main panel. A box plot with overlaying scatter plot shows on the bottom of the page. You may download the tabular data report the same way as described above.
+  - Similarly, significance is assessed using three columns in the Summary table on the main panel: Log10 Ratio DIFF, T-value, and P-value.
+  - In the meantime, a list of associated pathological images, if there are any, with various severities (normal, minimal, mild, moderate, and marked) show on top of the main panel. A box plot with overlaying scatter plot shows on the bottom of the page. You may download the tabular data report the same way as described above.
+    - Once the top row appears in the Summary table, you can click on a gene probe name (e.g., Havcr1) to view all associated experiments in detail in the table below.
+    - If available, pathological images with varying severities (normal, minimal, mild, moderate, and marked) will appear at the top of the main panel.
+    - A box plot with an overlaying scatter plot will be displayed at the bottom of the page.
+    - You can download the tabular data report in the same way as described above.
 - **Genes to Clinical Pathology**
+  - *Question to addres:* Which clinical pathologies are associated with changes of expressions in a gene (e.g., Abcc3)?
+  - Select a gene of interest to identify the clinical assays that show strong expression in a chosen organ or tissue. Assay effects are determined by comparing the average assay value to the normal range. If the average value falls within this range, it is considered normal. Values above the upper bound indicate an increase, while those below the lower bound indicate a decrease.
+
 - **Clinical Pathology to Genes**
 - **Genes to Oragan Weight Change**
 - **Organ Weight Change to Genes**
