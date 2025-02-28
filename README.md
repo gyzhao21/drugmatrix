@@ -42,5 +42,5 @@ To this end we have created a Shiny web application on top of the DrugMatrix dat
 - query a specific pathology, clinical pathology, organ weight change to identify the most strongly associated genes in **Pathology to Genes**, **Clinical Pathology to Genes**, and **Organ Weight to Genes** tools.
 - identify chemical treatments linked to apical endpoint finding grouped by treatments in **Toxicological Profile** tool.
 
-Users can refine the search by selecting the criteria of duration of exposure, organ/tissue source of gene expression, gene probe, histopathology, etc., on a microarray platform (CodeLink and/or Affymetrix) and then click the SUBMIT button. Results can be visualized graphically and are downloadable in multiple formats.
+Users can refine the search by selecting the criteria of duration of exposure, organ/tissue source of gene expression, gene probe, histopathology, etc., on a microarray platform (CodeLink and/or Affymetrix) and then click the <span style="color: burgundy; font-weight:bold;">**SUBMIT**</span> button. Results can be visualized graphically and are downloadable in multiple formats.
 
