@@ -38,8 +38,8 @@ The database has played a crucial role in toxicology research. It was initially 
 A combination of endpoints were accessed in each study including target organ histopathology, clinical chemistry and target organ toxicogenomics. This design allows for derivation of relationships between the different endpoint (e.g. identification of transcriptional biomarkers of pathology).
 
 To this end we have created a Shiny web application on top of the DrugMatrix database that allows users to
-- query a gene and identify its relationship to all diagnosed pathologies, clinical pathologies, and experimental animal organ weight changes due to the chemial compound treatment in **Genes to Pathology**, **Genes to Clinical Pathology**, and **Genes to Organ Weight" tools.
-- query a specific pathology, clinical pathology, organ weight change to identify the most strongly associated genes.
+- query a gene and identify its relationship to all diagnosed pathologies, clinical pathologies, and experimental animal organ weight changes due to the chemial compound treatment in **Genes to Pathology**, **Genes to Clinical Pathology**, and **Genes to Organ Weight** tools.
+- query a specific pathology, clinical pathology, organ weight change to identify the most strongly associated genes in **Pathology to Genes**, **Clinical Pathology to Genes**, and **Organ Weight to Genes** tools.
 - identify chemical treatments linked to apical endpoint finding grouped by treatments in **Toxicological Profile** tool.
 
 Users can refine the search by selecting the criteria of duration of exposure, organ/tissue source of gene expression, gene probe, histopathology, etc., on a microarray platform (CodeLink and/or Affymetrix) and then click the SUBMIT button. Results can be visualized graphically and are downloadable in multiple formats.
