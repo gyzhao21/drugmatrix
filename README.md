@@ -83,7 +83,7 @@ In addition to Project Description page, we have 9 other tabs:
   -  Identify chemical exposures linked to specific histopathological and clinical chemistry changes. The tool provides essential contextual details, including the chemical compound, dose, vehicle, and duration of exposure- in a qualittive manner.
     
 - **Individual Chmical Expression and Enrichment**
-  - *Question to address:*
-  - dfd
+  - *Question to address:* What pathways are altered by a specific treatment based on EnrichR analysis tool?
+  - Analyze gene expression changes in a selected tissue or organ (e.g., liver) following short-term exposure to a chemical. The tool utilizes a public EnrichR database (e.g., KEGG_2021_Human) to predict pathway associations based on upregulated or downregulated genes identified from a microarray platform (e.g., Codelink RU1).
     
 - **Scientific Citations**
