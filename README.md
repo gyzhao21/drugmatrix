@@ -80,7 +80,10 @@ In addition to Project Description page, we have 9 other tabs:
 - **Toxicologcal Profile**
   - *Question to address:* What outcomes are when you choose a treatment in a specific tissue (e.g., Liver)?
   -  Select an endpoint within the tool to retrieve a list of relevant treatments along with their corresponding exposure conditions.
-  -  Identify chemical exposures linked to specific histopathological and clinical chemistry changes. The tool provides essential contextual details, including the chemical compound, dose, vehicle, and duration of exposure.
+  -  Identify chemical exposures linked to specific histopathological and clinical chemistry changes. The tool provides essential contextual details, including the chemical compound, dose, vehicle, and duration of exposure- in a qualittive manner.
     
 - **Individual Chmical Expression and Enrichment**
+  - *Question to address:*
+  - dfd
+    
 - **Scientific Citations**
