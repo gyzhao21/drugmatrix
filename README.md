@@ -13,14 +13,14 @@ The database has played a crucial role in toxicology research. It was initially 
 >
      - ~700 Short-term toxicity studies (0.25 to 5 days) in male SD rats
      - ~637 compounds studied at multiple doses, time points and tissues
-> - ~4,000 dose-time-tissue combinations (biological triplicates)
-> - ~13,000 CodeLink RU1 Microarrays
-> - ~5,000 Affymetrix RG230-2 Arrays
-> - ~8,000 BioSpyder S1500+/GENIE Temp-SEQ
-> - ~127,000 histopathology measurements
-> - ~100,000 hematology and chemistry measurements
-> - ~130 different in vitro assays (not yet in the tool)
-> - ~900 chemicals with detailed literature curation
+     - ~4,000 dose-time-tissue combinations (biological triplicates)
+     - ~13,000 CodeLink RU1 Microarrays
+     - ~5,000 Affymetrix RG230-2 Arrays
+     - ~8,000 BioSpyder S1500+/GENIE Temp-SEQ
+     - ~127,000 histopathology measurements
+     - ~100,000 hematology and chemistry measurements
+     - ~130 different in vitro assays (not yet in the tool)
+     - ~900 chemicals with detailed literature curation
 
 
 # Gene Expression Platforms
