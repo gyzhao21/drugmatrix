@@ -43,3 +43,17 @@ To this end we have created a Shiny web application on top of the DrugMatrix dat
 - identify chemical treatments linked to apical endpoint finding grouped by treatments in **Toxicological Profile** tool.
 
 Users can refine the search by selecting the criteria of duration of exposure, organ/tissue source of gene expression, gene probe, histopathology, etc., on a microarray platform (CodeLink and/or Affymetrix) and then click the 🚀 **SUBMIT** button.
+
+# Quick Guide to Perform Search
+In addition to Project Description page, we have 9 other tabs:
+- Genes to Pthology
+  -- Question to address: Which histopathologies are associated with changes of expressions in a gene (e.g., Havcr1)? If you are interested in knowing which histopathology is most significantly assocaited with a chosen gene in a specific tissue organ, you choose a tissue and an expression platform (e.g., CodeLink RU1) with an exposure time (e.g., 5 days).
+  -- Within about a minute, you will be able to see the data retrieved from the DrugMatrix database. The significance is measured by looking at the 3 columns in the Summary table displayed on the main panel - gene expression level average Log10 Ratio DIFF, T-value, and P-value (see explanation below).
+- Pathology to Genes
+- Genes to Clinical Pathology
+- Clinical Pathology to Genes
+- Genes to Oragan Weight Change
+- Organ Weight Change to Genes
+- Toxicologcal Profile
+- Individual Chmical Expression and Enrichment
+- 
