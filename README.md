@@ -8,6 +8,7 @@ The DrugMatrix database is an integrated large-scale Rat toxicogenomic repositor
 
 The database has played a crucial role in toxicology research. It was initially developed to consolidate a wide range of toxicological and genomic data, enabling researchers to identify molecular signatures indicative of toxicity, diagnose pathological changes, and predict alterations in clinical pathology. The history and foundation of DrugMatrix have been well-documented, including in the book chapter provided as a reference.
 
+<div style="margin-left: 20px;">
 ## DrugMatrix Data Sets include:
 
 - ~700 Short-term toxicity studies (0.25 to 5 days) in male SD rats
@@ -20,6 +21,8 @@ The database has played a crucial role in toxicology research. It was initially 
 - ~100,000 hematology and chemistry measurements
 - ~130 different in vitro assays (not yet in the tool)
 - ~900 chemicals with detailed literature curation
+
+</div>
 
 # Gene Expression Platforms
 There are four gene expression platforms utilized in DrugMatrix: Codelink RU1, Affymetrix RG230-2, Sciome GENIE, and BioSpyder S1500+.
