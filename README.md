@@ -53,8 +53,6 @@ In addition to Project Description page, we have 9 other tabs:
   - To generate a report, you may choose PDF, csv, or Excel file format as shown in the upper corner of the table of your interest.
 - **Pathology to Genes**
   - *Question to address:* Which genes show the most significant expression changes in association with a specific histopathology (e.g., Hepatocyte, Nonzonal, Lipid Accumulation, Macrovesicular)?
-![image](https://github.com/user-attachments/assets/7d3c8802-7263-44f6-ad46-355a5c1df1bb)
-
   - Similarly, the significance is measured by looking at the 3 columns in the Summary table displayed on the main panel, i.e. Log10 Ratio DIFF, T-value, and P-value.
   - Once you see the top row displayed in the Summary table, you may click on the gene probe name, e.g. Havcr1. You will see all the experiments associated with the choice in detail shown in the table under the Summary table. In the meantime, a list of associated pathological images, if there are any, with various severities (normal, minimal, mild, moderate, and marked) show on top of the main panel. A box plot with overlaying scatter plot shows on the bottom of the page. You may download the tabular data report the same way as described above.
 - **Genes to Clinical Pathology**
