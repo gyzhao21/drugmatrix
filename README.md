@@ -103,20 +103,20 @@ A key feature of ApicalXOmics, exemplified by the **Genes to Pathology** tool, i
 You can download the tabular output in various formats, including PDF, CSV, and Excel.
 
 ## Detailed Report of Gene Expression and Exposure Conditions
-Once you click on the patholgy of interest as in **Genes to Pathology** tool shown above, comprehensive experimental details, including dose, duration, and gene expression values will pop up right below the Summary table. The figure shown below are the detailed treatment data supporting the statistics from summarized table.
+After selecting a pathology of interest in the **Genes to Pathology** tool shown above, a detailed table appears below the summary, displaying comprehensive experimental data, including dose, duration, and gene expression values. The figure below presents the specific treatment data that supports the statistical summary.
 ![Detailed Report](www/gene2path_detail_table.jpg)
 
 ## Boxplot Interpretation
-A dotted-box plot of the results is also shown below after you clicked on the gene of interest in above summary table.  Boxplot is to used illustrate the relationship between severity score and gene expression levels in a toxicology study using rat tissue (e.g., kidney) samples.
-- X-axis: Severity score for each chemical treatment. A score of 0 means no observed pathology, while any value greater than 0 indicates the presence of pathology.
+A dotted-box plot is also generated when you select a gene of interest from the summary table. This visualization illustrates the relationship between severity scores and gene expression levels in a toxicology study using rat tissue samples (e.g., kidney).
+- X-axis: Severity score for each chemical treatment. A score of 0 means no observed pathology, while values greater than 0 reflect increasing severity.
 - Y-axis: Gene expression level, represented as a Log10 ratio.
 ![Boxplot of Illustration](www/gene2pathology_plot.png)
 
-Each dot represents a unique treatment group, defined by a specific combination of chemical, dose, and duration. The experiment was designed to induce a pathology called **Cortex, Tubule, Necrosis** and examine whether gene expression levels change in response.
+Each dot represents a unique treatment group, defined by a specific combination of **chemical, dose, and duration**. In this example, the experiment was designed to induce a pathology called **Cortex, Tubule, Necrosis** and examine whether gene expression levels change in response.
 
 From the plot, we can see that when there is no pathology (severity = 0), gene expression levels remain low. However, as severity increases, gene expression also increases, suggesting a potential link between the pathology and gene regulation.
 
-This study helps us understand how gene expression responds to toxic effects, providing insights into potential biomarkers (e.g. for kidney damage).
+This analysis helps us understand how gene expression responds to toxic effects, providing insights into potential **biomarkers for toxicity-related conditions (e.g. for kidney damage)**.
 
 
 
