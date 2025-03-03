@@ -98,9 +98,12 @@ The impact of a pathology-associated genes is measured using three calculations.
 # Examplary Search Output
 
 ## Summary of Gene Expression and Toxicological Contexts
-A key feature of ApicalXOmics, exemplified by the Genes to Pathology tool, is the ability to click on a pathology in the summary table to populate a detailed results table below. This provides users with comprehensive experimental details, including dose, duration, and gene expression values, enabling easier interpretation of findings.
+A key feature of ApicalXOmics, exemplified by the **Genes to Pathology** tool, is the ability to click on a pathology in the summary table to populate a detailed results table below. This provides users with comprehensive experimental details, including dose, duration, and gene expression values, enabling easier interpretation of findings.
 ![Summary Report](www/summary_report.jpg)
 You can download the tabular output in various formats, including PDF, CSV, and Excel.
+
+## Details of Comprehensive Experimental Studies
+Once you click on the patholgy of interest as in **Genes to Pathology** tool, comprehensive experimental details, including dose, duration, and gene expression values will pop up right below the Summary table.
 
 ## Boxplot Interpretation
 Boxplot is to used illustrate the relationship between severity score and gene expression levels in a toxicology study using rat kidney samples.
