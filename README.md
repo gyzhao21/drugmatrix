@@ -91,9 +91,9 @@ In addition to Project Description page, we have 9 other tabs:
   - Explore key studies that support the data sources, methodologies, and analytical approaches used in the application. This resource helps users understand the scientific foundation behind the tool’s design and implementation.
  
 The impact of a pathology-associated genes is measured using three calculations.  Click a column header to sort the values.
-- DIFF- The Log10 ratio difference between the severity score of the control group (treatment without pathology, severity = 0) and the treatment group with pathology (severity > 0). 
-- T-value- Computed from paired Mann-Whitney observations comparing the average Log10 ratio between the treatment and non-treatment groups.
-- P-value- Determined using the Mann-Whitney method to assess differences in severity scores (>0), normal range, and gene expression levels. Values ≥ 0.05 are highlighted in **pink**.
+- **DIFF**- The Log10 ratio difference between the severity score of the control group (treatment without pathology, severity = 0) and the treatment group with pathology (severity > 0). 
+- **T-value**- Computed from paired Mann-Whitney observations comparing the average Log10 ratio between the treatment and non-treatment groups.
+- **P-value**- Determined using the Mann-Whitney method to assess differences in severity scores (>0), normal range, and gene expression levels. Values ≥ 0.05 are highlighted in **pink**.
 
 # Examplary Search Output
 
@@ -108,13 +108,13 @@ After selecting a pathology of interest in the **Genes to Pathology** tool shown
 
 ## Boxplot Interpretation
 A dotted-box plot is also generated when you select a gene of interest from the summary table. This visualization illustrates the relationship between severity scores and gene expression levels in a toxicology study using rat tissue samples (e.g., kidney).
-- X-axis: Severity score for each chemical treatment. A score of 0 means no observed pathology, while values greater than 0 reflect increasing severity.
-- Y-axis: Gene expression level, represented as a Log10 ratio.
+- **X-axis**: Severity score for each chemical treatment. A score of 0 means no observed pathology, while values greater than 0 reflect increasing severity.
+- **Y-axis**: Gene expression level, represented as a Log10 ratio.
 ![Boxplot of Illustration](www/gene2pathology_plot.png)
 
 Each dot represents a unique treatment group, defined by a specific combination of **chemical, dose, and duration**. In this example, the experiment was designed to induce a pathology called **Cortex, Tubule, Necrosis** and examine whether gene expression levels change in response.
 
-From the plot, we can see that when there is no pathology (severity = 0), gene expression levels remain low. However, as severity increases, gene expression also increases, suggesting a potential link between the pathology and gene regulation.
+From the plot, we can see that when there is **no pathology (severity = 0), gene expression levels remain low**. However, as severity increases, gene expression also increases, suggesting a potential link between the pathology and gene regulation.
 
 This analysis helps us understand how gene expression responds to toxic effects, providing insights into potential **biomarkers for toxicity-related conditions (e.g. for kidney damage)**.
 
