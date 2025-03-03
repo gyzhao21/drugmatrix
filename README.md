@@ -100,7 +100,6 @@ The impact of a pathology-associated genes is measured using three calculations.
 ## Summary of Gene Expression and Toxicological Contexts
 A key feature of ApicalXOmics, exemplified by the Genes to Pathology tool, is the ability to click on a pathology in the summary table to populate a detailed results table below. This provides users with comprehensive experimental details, including dose, duration, and gene expression values, enabling easier interpretation of findings.
 ![Summary Report](www/summary_report.jpg)
-
 You may download a tabular output data in the format of some choices such as PDF, csv, or excel, etc.
 
 ## Boxplot Interpretation
