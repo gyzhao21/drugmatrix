@@ -103,11 +103,11 @@ A key feature of ApicalXOmics, exemplified by the **Genes to Pathology** tool, i
 You can download the tabular output in various formats, including PDF, CSV, and Excel.
 
 ## Detailed Report of Gene Expression and Exposure Conditions
-Once you click on the patholgy of interest as in **Genes to Pathology** tool, comprehensive experimental details, including dose, duration, and gene expression values will pop up right below the Summary table.
-ADD THINGS IN HERE (need a screenshot!!!)
+Once you click on the patholgy of interest as in **Genes to Pathology** tool shown above, comprehensive experimental details, including dose, duration, and gene expression values will pop up right below the Summary table. The figure shown below are the detailed treatment data supporting the statistics from summarized table.
+![Detailed Report](www/gene2path_detail_table.jpg)
 
 ## Boxplot Interpretation
-Boxplot is to used illustrate the relationship between severity score and gene expression levels in a toxicology study using rat kidney samples.
+A dotted-box plot of the results is also shown below after you clicked on the gene of interest in above summary table.  Boxplot is to used illustrate the relationship between severity score and gene expression levels in a toxicology study using rat tissue (e.g., kidney) samples.
 - X-axis: Severity score for each chemical treatment. A score of 0 means no observed pathology, while any value greater than 0 indicates the presence of pathology.
 - Y-axis: Gene expression level, represented as a Log10 ratio.
 ![Boxplot of Illustration](www/gene2pathology_plot.png)
