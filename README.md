@@ -102,7 +102,7 @@ A key feature of ApicalXOmics, exemplified by the **Genes to Pathology** tool, i
 ![Summary Report](www/summary_report.jpg)
 You can download the tabular output in various formats, including PDF, CSV, and Excel.
 
-## Details of Comprehensive Experimental Studies
+## Detailed Report of Gene Expression and Exposure Conditions
 Once you click on the patholgy of interest as in **Genes to Pathology** tool, comprehensive experimental details, including dose, duration, and gene expression values will pop up right below the Summary table.
 ADD THINGS IN HERE (need a screenshot!!!)
 
