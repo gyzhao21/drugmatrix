@@ -101,8 +101,10 @@ Boxplot is to used illustrate the relationship between severity score and gene e
 - Y-axis: Gene expression level, represented as a Log10 ratio.
 ![Boxplot of Illustration](www/gene2pathology_plot.png)
 Each dot represents a unique treatment group, defined by a specific combination of chemical, dose, and duration. The experiment was designed to induce a pathology called **Cortex, Tubule, Necrosis** and examine whether gene expression levels change in response.
+
 From the plot, we can see that when there is no pathology (severity = 0), gene expression levels remain low. However, as severity increases, gene expression also increases, suggesting a potential link between the pathology and gene regulation.
-This study helps us understand how gene expression responds to toxic effects, providing insights into potential biomarkers (e.g. for kidney damage.
+
+This study helps us understand how gene expression responds to toxic effects, providing insights into potential biomarkers (e.g. for kidney damage).
 
 
 
