@@ -95,6 +95,16 @@ The impact of a pathology-associated genes is measured using three calculations.
 - T-value- Computed from paired Mann-Whitney observations comparing the average Log10 ratio between the treatment and non-treatment groups.
 - P-value- Determined using the Mann-Whitney method to assess differences in severity scores (>0), normal range, and gene expression levels. Values ≥ 0.05 are highlighted in **pink**.
 
+# Examplary Search Output
+
+## Summary of Gene Expression and Toxicological Contexts
+A key feature of ApicalXOmics, exemplified by the Genes to Pathology tool, is the ability to click on a pathology in the summary table to populate a detailed results table below. This provides users with comprehensive experimental details, including dose, duration, and gene expression values, enabling easier interpretation of findings.
+
+
+
+
+You may download a tabular output data in the format of some choices such as PDF, csv, or excel, etc.
+
 ## Boxplot Interpretation
 Boxplot is to used illustrate the relationship between severity score and gene expression levels in a toxicology study using rat kidney samples.
 - X-axis: Severity score for each chemical treatment. A score of 0 means no observed pathology, while any value greater than 0 indicates the presence of pathology.
