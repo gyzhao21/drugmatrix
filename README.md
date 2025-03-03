@@ -89,3 +89,11 @@ In addition to Project Description page, we have 9 other tabs:
 - **Scientific Citations**
   - Access a comprehensive list of scientific publications referenced in the development of this application. The citation page provides direct links to original research articles, reviews, and relevant studies.
   - Explore key studies that support the data sources, methodologies, and analytical approaches used in the application. This resource helps users understand the scientific foundation behind the tool’s design and implementation.
+ 
+The impact of a pathology-associated genes is measured using three calculations.  Click a column header to sort the values.
+- DIFF- The Log10 ratio difference between the severity score of the control group (treatment without pathology, severity = 0) and the treatment group with pathology (severity > 0). 
+- T-value- Computed from paired Mann-Whitney observations comparing the average Log10 ratio between the treatment and non-treatment groups.
+- P-value- Determined using the Mann-Whitney method to assess differences in severity scores (>0), normal range, and gene expression levels. Values ≥ 0.05 are highlighted in **pink**.
+
+
+
