@@ -107,7 +107,7 @@ After selecting a pathology of interest in the **Genes to Pathology** tool shown
 ![Detailed Report](www/gene2path_detail_table.jpg)
 
 ## Boxplot Interpretation
-A dotted-box plot is also generated when you select a gene of interest from the summary table. This visualization illustrates the relationship between severity scores and gene expression levels in a toxicology study using rat tissue samples (e.g., kidney).
+A **dotted-box plot** is also generated when you select a gene of interest from the summary table. This visualization illustrates the relationship between severity scores and gene expression levels in a toxicology study using rat tissue samples (e.g., kidney).
 - **X-axis**: Severity score for each chemical treatment. A score of 0 means no observed pathology, while values greater than 0 reflect increasing severity.
 - **Y-axis**: Gene expression level, represented as a Log10 ratio.
 ![Boxplot of Illustration](www/gene2pathology_plot.png)
