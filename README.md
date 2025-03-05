@@ -43,7 +43,7 @@ To facilitate this, we have developed a Shiny web application powered by the Dru
 - **identify chemical treatments** linked to apical endpoint findings, grouped by toxicological profiles.
 - **discover potential pathway alterations** caused by specific treatments using the EnrichR analysis tool.
 
-Users can refine their search by selecting criteria such as exposure duration, organ/tissue source of gene expression, gene probe, histopathology, and expression platform (CodeLink, Affymetrix, Genie, and BioSpyder). After defining the criteria, clicking the **SUBMIT** button generates results, which can be visualized graphically and downloaded in multiple formats.
+Users can refine their search by selecting criteria such as exposure duration, organ/tissue source of gene expression, gene probe, histopathology, and expression platform (CodeLink, Affymetrix, Genie, and BioSpyder). After defining the criteria, clicking the **SUBMIT** button generates results displayed in both summary and detailed tables, as well as graphical visualizations. All results can be downloaded in multiple formats.
 
 # Quick Guide to Performing a Search
 In addition to Project Description page, we have 9 other tabs:
