@@ -16,21 +16,6 @@
 # library(enrichR)
 # library(survPen)
 # 
-# # read data
-# pool <- dbPool(
-#    drv = RPostgres::Postgres(),     # Sandbox
-# #   drv = RPostgreSQL::PostgreSQL(),  # ODS
-#     dbname = "drugmatrix",
-#     host = "ehsntpld03",
-#     port = 5432,
-#     user = "ntp_group",
-#     password = "ntp_group"
-# )    
-# 
-# onStop(function() {
-#       poolClose(pool)
-# })
-
 
 
 shinyServer(function(input, output, session) {
