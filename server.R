@@ -1,21 +1,3 @@
-# library(shiny)
-# library(shinydashboard)
-# library(ggplot2)
-# library(pool)
-# # library(dplyr, warn.conflicts = FALSE)
-# library(data.table)
-# require("RPostgres")
-# #require("RPostgreSQL")
-# library(forcats)
-# library(DT)
-# library(tidyverse)
-# library(tidyr)
-# library(stringr)
-# library(dplyr)
-# library(readxl)
-# library(enrichR)
-# library(survPen)
-# 
 
 
 shinyServer(function(input, output, session) {
