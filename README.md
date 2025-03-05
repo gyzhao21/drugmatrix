@@ -35,14 +35,15 @@ The database has played a crucial role in toxicology research. It was initially 
 > Extrapolated data derived from a model (referred to as GeniE; https://www.sciome.com/genie/) developed by Sciome LLC, which levels covariance in gene expression to infer whole genome expression from the BioSpyder S1500+ which measured ~ 2700 genes.
 
 # Search Strategy
-A combination of endpoints were accessed in each study including target organ histopathology, clinical chemistry and target organ toxicogenomics. This design allows for derivation of relationships between the different endpoint (e.g. identification of transcriptional biomarkers of pathology).
+Each toxicogenomic study in ApicalXOmics integrates multiple endpoints, including target organ histopathology, clinical pathology, and organ weight changes. This comprehensive design enables the identification of relationships between these endpoints, such as transcriptional biomarkers of pathology.
 
-To this end we have created a Shiny web application on top of the DrugMatrix database that allows users to
-- query a gene and identify its relationship to all diagnosed pathologies, clinical pathologies, and experimental animal organ weight changes due to the chemial compound treatment in **Genes to Pathology**, **Genes to Clinical Pathology**, and **Genes to Organ Weight** tools.
-- query a specific pathology, clinical pathology, organ weight change to identify the most strongly associated genes in **Pathology to Genes**, **Clinical Pathology to Genes**, and **Organ Weight to Genes** tools.
-- identify chemical treatments linked to apical endpoint finding grouped by treatments in **Toxicological Profile** tool.
+To facilitate this, we have developed a Shiny web application powered by the DrugMatrix database, allowing users to:
+- **query a gene** to explore its relationship with all diagnosed pathologies, clinical pathologies, and experimental organ weight changes following chemical treatment.
+- **query a specific pathology, clinical pathology, or organ weight change** to identify the most strongly associated genes.
+- **identify chemical treatments** linked to apical endpoint findings, grouped by toxicological profiles.
+- **discover potential pathway alterations** caused by specific treatments using the EnrichR analysis tool.
 
-Users can refine the search by selecting the criteria of duration of exposure, organ/tissue source of gene expression, gene probe, histopathology, etc., on a microarray platform (CodeLink and/or Affymetrix) and then click the 🚀 **SUBMIT** button.
+Users can refine their search by selecting criteria such as exposure duration, organ/tissue source of gene expression, gene probe, histopathology, and expression platform (CodeLink, Affymetrix, Genie, and BioSpyder). After defining the criteria, clicking the **SUBMIT** button generates results, which can be visualized graphically and downloaded in multiple formats.
 
 # Quick Guide to Performing a Search
 In addition to Project Description page, we have 9 other tabs:
