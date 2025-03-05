@@ -16,32 +16,7 @@ library(readxl)
 library(survPen)
 library(enrichR)
 
-# needs to set R_CONFIG_ACTIVE in .Renviron
-dw <- config::get("drugmatrix")
 
-pobj <- pool::dbPool(
-  RPostgres::Postgres(),
-  host = dw$server,
-  user    = dw$uid,
-  password    = dw$pwd,
-  port   = dw$port,
-  dbname = dw$database
-)
-
-# # read data
-# pool <- dbPool(
-#   drv = RPostgres::Postgres(),
-# #  drv = RPostgreSQL::PostgreSQL(),
-#   dbname = "drugmatrix",
-#   host = "ehsntpld03",
-#   port = 5432,
-#   user = "ntp_group",
-#   password = "ntp_group"
-# )    
-
-onStop(function() {
-  poolClose(pobj)
-})
 
 datQuery <- paste0("SELECT * FROM bsb_chip_histopath_duration;")
 
