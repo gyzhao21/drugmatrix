@@ -41,7 +41,7 @@ To facilitate this, we have developed a Shiny web application powered by the Dru
 - **query a gene** to explore its relationship with all diagnosed pathologies, clinical pathologies, and experimental organ weight changes following chemical treatment.
 - **query a specific pathology, clinical pathology, or organ weight change** to identify the most strongly associated genes.
 - **identify chemical treatments** linked to apical endpoint findings, grouped by toxicological profiles.
-- **discover potential pathway alterations** caused by specific treatments using the EnrichR analysis tool.
+- **discover potential pathway alterations** caused by specific treatments using the EnrichR API.
 
 Users can refine their search by selecting criteria such as exposure duration, organ/tissue source of gene expression, gene probe, histopathology, and expression platform (CodeLink, Affymetrix, Genie, and BioSpyder). After defining the criteria, clicking the **SUBMIT** button generates results displayed in both summary and detailed tables, as well as graphical visualizations. All results can be downloaded in multiple formats.
 
