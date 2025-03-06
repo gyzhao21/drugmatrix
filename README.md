@@ -1,7 +1,9 @@
 # DrugMatrix ApicalXOmics
 DrugMatrix ApicalXOmics is an application for discovering genes associated with phenotypical changes (i.e., histopathologies, clinical pathologies, and organ weight changes) from DrugMatrix database. 
+
 ![ApicalXOmics Web Interface](www/apicalxomics_interface.jpg)
-Each function in web interface of the DrugMatrix ApicalXOmics is organized into its own tab for easy access. On the left panel, users can select their parameters of interest. Once selections are made and submitted, the results will be displayed in the main panel on the right.
+
+The ApicalXOmics web interface of the DrugMatrix database is designed for user-friendly navigation, with each function organized into its own tab for easy access. The left panel allows users to select their parameters of interest, while the main panel on the right displays the results upon submission.
 
 # Toxicogenomics and DrugMatrix Database
 Toxicogenomics is the study of how genes and proteins respond to toxic substances, providing valuable insights into the molecular mechanisms behind adverse drug reactions and environmental toxicity. It explores how exposure to toxicants influences gene expression and the resulting biological effects (i.e., histopatholgy, clinical pathology, and organ weight change).
