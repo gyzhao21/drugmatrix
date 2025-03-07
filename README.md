@@ -126,7 +126,7 @@ This analysis helps us understand how gene expression responds to toxic effects,
 
 ## Histology Tissue Images
 Currently, only the **Pathology to Genes** tab output includes histology tissue images, providing a visual reference for liver pathology. When selecting the Abcc3 gene probe in the liver, the tab displays gene expression levels, represented by average log10 ratios across various severity scores. Above the summary table, users can view a collection of pathological images associated with liver findings. Support for additional organs (e.g., kidney, heart) may be added in future updates.
-![Liver Histology Image Example](mild-liver-pathology.png)
+![Liver Histology Image Example](www/mild-liver-pathology.png)
 
 
 
