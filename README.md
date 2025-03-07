@@ -125,7 +125,9 @@ From the plot, we can see that when there is **no pathology (severity = 0), gene
 This analysis helps us understand how gene expression responds to toxic effects, providing insights into potential **biomarkers for toxicity-related conditions (e.g. for kidney damage)**.
 
 ## Histology Tissue Images
-Currently, only the **Pathology to Genes** tab output includes histology tissue images, providing a visual reference for liver pathology. When selecting the Abcc3 gene probe in the liver, the tab displays gene expression levels, represented by average log10 ratios across various severity scores. Above the summary table, users can view a collection of pathological images associated with liver findings. Support for additional organs (e.g., kidney, heart) may be added in future updates.  Click on the histopathology name on the row with severity, you get the pathological image shown as below.
+Currently, only the **Pathology to Genes** tab output includes histology tissue images, providing a visual reference for liver pathology. When selecting the Abcc3 gene probe in the liver, the tab displays gene expression levels, represented by average log10 ratios across various severity scores. Above the summary table, users can view a collection of pathological images associated with liver findings. Support for additional organs (e.g., kidney, heart) may be added in future updates.
+
+Click on the histopathology name on the row with severity, you get the pathological image shown as below.
 ![Liver Histology Image Example](www/mild-liver-pathology.png)
 
 
